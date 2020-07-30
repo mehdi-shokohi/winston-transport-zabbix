@@ -1,6 +1,8 @@
 ## Winston Transports For Zabbix
 
 #### Using NPM Package of `winston-transport-zabbix`
+
+***- app.js***
 ```js
 const winston = require('winston');
 const winstonZabbix = require('winston-transport-zabbix')
@@ -20,6 +22,14 @@ logger.info("InFo Log ")
 logger.warn("Warn Log ")
 logger.error("Error Log ")
 ```
+
+#### Run Code
+```shell script
+# npm install winston-transport-zabbix
+# node app.js 
+```
+
+#
 
 #### Parameters  
 ***with_timestamps*** :  Add Local Time to Log Body.
