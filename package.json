@@ -1,0 +1,32 @@
+{
+  "name": "winston-transport-zabbix",
+  "version": "1.0.0",
+  "description": "zabbix sender(trapper) for winston logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdi-shokohi/winston-transport-zabbix.git"
+  },
+  "keywords": [
+    "zabbix-sender",
+    "zabbix-trapper",
+    "zabbix",
+    "winston",
+    "zabbix-transport",
+    "winston-transport"
+  ],
+  "author": "mehdi shokohifar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehdi-shokohi/winston-transport-zabbix/issues"
+  },
+  "homepage": "https://github.com/mehdi-shokohi/winston-transport-zabbix#readme",
+  "dependencies": {
+    "node-zabbix-sender": "^1.1.0",
+    "winston": "^3.3.3",
+    "winston-transport": "^4.4.0"
+  }
+}
